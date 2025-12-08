@@ -1,0 +1,1884 @@
+{
+    "metadata": {
+        "tool_info": {
+            "name": "rust-analyzer",
+            "version": "0.3.2702-standalone"
+        },
+        "project_root": "file:///home/lacra/git_repos/baif/minimal-scip-issue",
+        "text_document_encoding": 1
+    },
+    "documents": [
+        {
+            "language": "rust",
+            "relative_path": "src/lib.rs",
+            "occurrences": [
+                {
+                    "range": [
+                        0,
+                        0,
+                        112,
+                        0
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 crate/",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        0,
+                        0,
+                        112,
+                        0
+                    ]
+                },
+                {
+                    "range": [
+                        7,
+                        4,
+                        7
+                    ],
+                    "symbol": "rust-analyzer cargo std https://github.com/rust-lang/rust/library/std crate/"
+                },
+                {
+                    "range": [
+                        7,
+                        9,
+                        12
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core ops/"
+                },
+                {
+                    "range": [
+                        7,
+                        15,
+                        18
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core ops/arith/Neg#"
+                },
+                {
+                    "range": [
+                        7,
+                        20,
+                        23
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core ops/arith/Mul#"
+                },
+                {
+                    "range": [
+                        10,
+                        2,
+                        8
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/builtin/derive:"
+                },
+                {
+                    "range": [
+                        10,
+                        9,
+                        14
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core clone/Clone:"
+                },
+                {
+                    "range": [
+                        10,
+                        16,
+                        20
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core marker/Copy:"
+                },
+                {
+                    "range": [
+                        10,
+                        22,
+                        27
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core fmt/macros/Debug:"
+                },
+                {
+                    "range": [
+                        11,
+                        11,
+                        17
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        14,
+                        2,
+                        8
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/builtin/derive:"
+                },
+                {
+                    "range": [
+                        14,
+                        9,
+                        14
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core clone/Clone:"
+                },
+                {
+                    "range": [
+                        14,
+                        16,
+                        20
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core marker/Copy:"
+                },
+                {
+                    "range": [
+                        14,
+                        22,
+                        27
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core fmt/macros/Debug:"
+                },
+                {
+                    "range": [
+                        15,
+                        11,
+                        16
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        24,
+                        5,
+                        8
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core ops/arith/Neg#"
+                },
+                {
+                    "range": [
+                        24,
+                        13,
+                        19
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        25,
+                        9,
+                        15
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[Scalar][Neg]Output#",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        25,
+                        4,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        25,
+                        18,
+                        24
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        27,
+                        7,
+                        10
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[Scalar][Neg]neg().",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        27,
+                        4,
+                        29,
+                        5
+                    ]
+                },
+                {
+                    "range": [
+                        27,
+                        11,
+                        15
+                    ],
+                    "symbol": "local 0",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        27,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        27,
+                        20,
+                        26
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        28,
+                        8,
+                        14
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        28,
+                        16,
+                        20
+                    ],
+                    "symbol": "local 0",
+                    "enclosing_range": [
+                        27,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        28,
+                        21,
+                        22
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "enclosing_range": [
+                        11,
+                        18,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        39,
+                        5,
+                        8
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core ops/arith/Neg#"
+                },
+                {
+                    "range": [
+                        39,
+                        14,
+                        20
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        40,
+                        9,
+                        15
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][Neg]Output#",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        40,
+                        4,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        40,
+                        18,
+                        24
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        42,
+                        7,
+                        10
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][Neg]neg().",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        42,
+                        4,
+                        44,
+                        5
+                    ]
+                },
+                {
+                    "range": [
+                        42,
+                        11,
+                        15
+                    ],
+                    "symbol": "local 1",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        42,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        42,
+                        20,
+                        26
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        43,
+                        8,
+                        14
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        43,
+                        16,
+                        20
+                    ],
+                    "symbol": "local 1",
+                    "enclosing_range": [
+                        42,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        43,
+                        21,
+                        22
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "enclosing_range": [
+                        11,
+                        18,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        56,
+                        5,
+                        8
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core ops/arith/Mul#"
+                },
+                {
+                    "range": [
+                        56,
+                        10,
+                        16
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        56,
+                        23,
+                        28
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        57,
+                        9,
+                        15
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Point`][`Mul<&Scalar>`]Output#",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        57,
+                        4,
+                        24
+                    ]
+                },
+                {
+                    "range": [
+                        57,
+                        18,
+                        23
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        59,
+                        7,
+                        10
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Point`][`Mul<&Scalar>`]mul().",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        59,
+                        4,
+                        61,
+                        5
+                    ]
+                },
+                {
+                    "range": [
+                        59,
+                        11,
+                        15
+                    ],
+                    "symbol": "local 2",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        59,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        59,
+                        17,
+                        23
+                    ],
+                    "symbol": "local 3",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        59,
+                        17,
+                        23
+                    ]
+                },
+                {
+                    "range": [
+                        59,
+                        26,
+                        32
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        59,
+                        37,
+                        42
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        8,
+                        13
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        14,
+                        18
+                    ],
+                    "symbol": "local 2",
+                    "enclosing_range": [
+                        59,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        19,
+                        20
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#0.",
+                    "enclosing_range": [
+                        15,
+                        17,
+                        24
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        23,
+                        29
+                    ],
+                    "symbol": "local 3",
+                    "enclosing_range": [
+                        59,
+                        17,
+                        23
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        30,
+                        31
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "enclosing_range": [
+                        11,
+                        18,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        33,
+                        37
+                    ],
+                    "symbol": "local 2",
+                    "enclosing_range": [
+                        59,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        38,
+                        39
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#1.",
+                    "enclosing_range": [
+                        15,
+                        26,
+                        33
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        42,
+                        48
+                    ],
+                    "symbol": "local 3",
+                    "enclosing_range": [
+                        59,
+                        17,
+                        23
+                    ]
+                },
+                {
+                    "range": [
+                        60,
+                        49,
+                        50
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "enclosing_range": [
+                        11,
+                        18,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        69,
+                        5,
+                        8
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core ops/arith/Mul#"
+                },
+                {
+                    "range": [
+                        69,
+                        10,
+                        15
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        69,
+                        22,
+                        28
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        70,
+                        9,
+                        15
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][`Mul<&Point>`]Output#",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        70,
+                        4,
+                        24
+                    ]
+                },
+                {
+                    "range": [
+                        70,
+                        18,
+                        23
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        72,
+                        7,
+                        10
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][`Mul<&Point>`]mul().",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        72,
+                        4,
+                        74,
+                        5
+                    ]
+                },
+                {
+                    "range": [
+                        72,
+                        11,
+                        15
+                    ],
+                    "symbol": "local 4",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        72,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        72,
+                        17,
+                        22
+                    ],
+                    "symbol": "local 5",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        72,
+                        17,
+                        22
+                    ]
+                },
+                {
+                    "range": [
+                        72,
+                        25,
+                        30
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        72,
+                        35,
+                        40
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        8,
+                        13
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        14,
+                        18
+                    ],
+                    "symbol": "local 4",
+                    "enclosing_range": [
+                        72,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        19,
+                        20
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "enclosing_range": [
+                        11,
+                        18,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        23,
+                        28
+                    ],
+                    "symbol": "local 5",
+                    "enclosing_range": [
+                        72,
+                        17,
+                        22
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        29,
+                        30
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#0.",
+                    "enclosing_range": [
+                        15,
+                        17,
+                        24
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        32,
+                        36
+                    ],
+                    "symbol": "local 4",
+                    "enclosing_range": [
+                        72,
+                        11,
+                        15
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        37,
+                        38
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "enclosing_range": [
+                        11,
+                        18,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        41,
+                        46
+                    ],
+                    "symbol": "local 5",
+                    "enclosing_range": [
+                        72,
+                        17,
+                        22
+                    ]
+                },
+                {
+                    "range": [
+                        73,
+                        47,
+                        48
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#1.",
+                    "enclosing_range": [
+                        15,
+                        26,
+                        33
+                    ]
+                },
+                {
+                    "range": [
+                        78,
+                        4,
+                        9
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        77,
+                        0,
+                        110,
+                        1
+                    ]
+                },
+                {
+                    "range": [
+                        79,
+                        8,
+                        13
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 crate/",
+                    "enclosing_range": [
+                        0,
+                        0,
+                        112,
+                        0
+                    ]
+                },
+                {
+                    "range": [
+                        81,
+                        6,
+                        10
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/builtin/test:"
+                },
+                {
+                    "range": [
+                        82,
+                        7,
+                        21
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_neg_owned().",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        81,
+                        4,
+                        85,
+                        5
+                    ]
+                },
+                {
+                    "range": [
+                        83,
+                        12,
+                        13
+                    ],
+                    "symbol": "local 6",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        83,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        83,
+                        16,
+                        22
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        84,
+                        8,
+                        17
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/assert_eq!"
+                },
+                {
+                    "range": [
+                        84,
+                        21,
+                        22
+                    ],
+                    "symbol": "local 6",
+                    "enclosing_range": [
+                        83,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        84,
+                        24,
+                        25
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "enclosing_range": [
+                        11,
+                        18,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        87,
+                        6,
+                        10
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/builtin/test:"
+                },
+                {
+                    "range": [
+                        88,
+                        7,
+                        19
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_neg_ref().",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        87,
+                        4,
+                        91,
+                        5
+                    ]
+                },
+                {
+                    "range": [
+                        89,
+                        12,
+                        13
+                    ],
+                    "symbol": "local 7",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        89,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        89,
+                        16,
+                        22
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        90,
+                        8,
+                        17
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/assert_eq!"
+                },
+                {
+                    "range": [
+                        90,
+                        22,
+                        23
+                    ],
+                    "symbol": "local 7",
+                    "enclosing_range": [
+                        89,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        90,
+                        25,
+                        26
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "enclosing_range": [
+                        11,
+                        18,
+                        25
+                    ]
+                },
+                {
+                    "range": [
+                        93,
+                        6,
+                        10
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/builtin/test:"
+                },
+                {
+                    "range": [
+                        94,
+                        7,
+                        31
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_point_by_scalar().",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        93,
+                        4,
+                        100,
+                        5
+                    ]
+                },
+                {
+                    "range": [
+                        95,
+                        12,
+                        13
+                    ],
+                    "symbol": "local 8",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        95,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        95,
+                        16,
+                        21
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        96,
+                        12,
+                        13
+                    ],
+                    "symbol": "local 9",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        96,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        96,
+                        16,
+                        22
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        97,
+                        12,
+                        18
+                    ],
+                    "symbol": "local 10",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        97,
+                        12,
+                        18
+                    ]
+                },
+                {
+                    "range": [
+                        97,
+                        22,
+                        23
+                    ],
+                    "symbol": "local 8",
+                    "enclosing_range": [
+                        95,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        97,
+                        27,
+                        28
+                    ],
+                    "symbol": "local 9",
+                    "enclosing_range": [
+                        96,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        98,
+                        8,
+                        17
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/assert_eq!"
+                },
+                {
+                    "range": [
+                        98,
+                        19,
+                        25
+                    ],
+                    "symbol": "local 10",
+                    "enclosing_range": [
+                        97,
+                        12,
+                        18
+                    ]
+                },
+                {
+                    "range": [
+                        98,
+                        26,
+                        27
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#0.",
+                    "enclosing_range": [
+                        15,
+                        17,
+                        24
+                    ]
+                },
+                {
+                    "range": [
+                        99,
+                        8,
+                        17
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/assert_eq!"
+                },
+                {
+                    "range": [
+                        99,
+                        19,
+                        25
+                    ],
+                    "symbol": "local 10",
+                    "enclosing_range": [
+                        97,
+                        12,
+                        18
+                    ]
+                },
+                {
+                    "range": [
+                        99,
+                        26,
+                        27
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#1.",
+                    "enclosing_range": [
+                        15,
+                        26,
+                        33
+                    ]
+                },
+                {
+                    "range": [
+                        102,
+                        6,
+                        10
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/builtin/test:"
+                },
+                {
+                    "range": [
+                        103,
+                        7,
+                        31
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_scalar_by_point().",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        102,
+                        4,
+                        109,
+                        5
+                    ]
+                },
+                {
+                    "range": [
+                        104,
+                        12,
+                        13
+                    ],
+                    "symbol": "local 11",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        104,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        104,
+                        16,
+                        22
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "enclosing_range": [
+                        9,
+                        0,
+                        11,
+                        27
+                    ]
+                },
+                {
+                    "range": [
+                        105,
+                        12,
+                        13
+                    ],
+                    "symbol": "local 12",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        105,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        105,
+                        16,
+                        21
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "enclosing_range": [
+                        13,
+                        0,
+                        15,
+                        35
+                    ]
+                },
+                {
+                    "range": [
+                        106,
+                        12,
+                        18
+                    ],
+                    "symbol": "local 13",
+                    "symbol_roles": 1,
+                    "enclosing_range": [
+                        106,
+                        12,
+                        18
+                    ]
+                },
+                {
+                    "range": [
+                        106,
+                        22,
+                        23
+                    ],
+                    "symbol": "local 11",
+                    "enclosing_range": [
+                        104,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        106,
+                        27,
+                        28
+                    ],
+                    "symbol": "local 12",
+                    "enclosing_range": [
+                        105,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "range": [
+                        107,
+                        8,
+                        17
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/assert_eq!"
+                },
+                {
+                    "range": [
+                        107,
+                        19,
+                        25
+                    ],
+                    "symbol": "local 13",
+                    "enclosing_range": [
+                        106,
+                        12,
+                        18
+                    ]
+                },
+                {
+                    "range": [
+                        107,
+                        26,
+                        27
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#0.",
+                    "enclosing_range": [
+                        15,
+                        17,
+                        24
+                    ]
+                },
+                {
+                    "range": [
+                        108,
+                        8,
+                        17
+                    ],
+                    "symbol": "rust-analyzer cargo core https://github.com/rust-lang/rust/library/core macros/assert_eq!"
+                },
+                {
+                    "range": [
+                        108,
+                        19,
+                        25
+                    ],
+                    "symbol": "local 13",
+                    "enclosing_range": [
+                        106,
+                        12,
+                        18
+                    ]
+                },
+                {
+                    "range": [
+                        108,
+                        26,
+                        27
+                    ],
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#1.",
+                    "enclosing_range": [
+                        15,
+                        26,
+                        33
+                    ]
+                }
+            ],
+            "symbols": [
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 crate/",
+                    "documentation": [
+                        "Minimal example demonstrating SCIP symbol format differences.\n\nThis crate shows three cases:\n1. Owned Self: `impl Neg for Scalar` - works correctly in both tools\n2. Reference Self: `impl Neg for &Scalar` - verus-analyzer omits the Self type\n3. Duplicate symbols: Two different `Mul` impls that produce identical symbols in verus-analyzer"
+                    ],
+                    "kind": 29,
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "extern crate minimal_scip_issue",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#",
+                    "documentation": [
+                        "A simple scalar type for demonstration."
+                    ],
+                    "kind": 49,
+                    "display_name": "Scalar",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "pub struct Scalar(pub i32)",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#",
+                    "documentation": [
+                        "A simple point type for demonstration."
+                    ],
+                    "kind": 49,
+                    "display_name": "Point",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "pub struct Point(pub i32, pub i32)",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[Scalar][Neg]Output#",
+                    "documentation": [
+                        "*This is the documentation for* `pub struct Scalar(pub i32)`\n\nA simple scalar type for demonstration."
+                    ],
+                    "kind": 3,
+                    "display_name": "Output",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "type Output = Scalar",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[Scalar][Neg]neg().",
+                    "documentation": [
+                        "Performs the unary `-` operation.\n\n# Example\n\n```\nlet x: i32 = 12;\nassert_eq!(-x, -12);\n```"
+                    ],
+                    "kind": 26,
+                    "display_name": "neg",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "fn neg(self) -> Scalar",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "local 0",
+                    "kind": 44,
+                    "display_name": "self",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "self: Scalar",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[Scalar][Neg]neg()."
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Scalar#0.",
+                    "kind": 15,
+                    "display_name": "0",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "pub 0: i32",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][Neg]Output#",
+                    "documentation": [
+                        "*This is the documentation for* `pub struct Scalar(pub i32)`\n\nA simple scalar type for demonstration."
+                    ],
+                    "kind": 3,
+                    "display_name": "Output",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "type Output = Scalar",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][Neg]neg().",
+                    "documentation": [
+                        "Performs the unary `-` operation.\n\n# Example\n\n```\nlet x: i32 = 12;\nassert_eq!(-x, -12);\n```"
+                    ],
+                    "kind": 26,
+                    "display_name": "neg",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "fn neg(self) -> Scalar",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "local 1",
+                    "kind": 44,
+                    "display_name": "self",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "self: &Scalar",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][Neg]neg()."
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Point`][`Mul<&Scalar>`]Output#",
+                    "documentation": [
+                        "*This is the documentation for* `pub struct Point(pub i32, pub i32)`\n\nA simple point type for demonstration."
+                    ],
+                    "kind": 3,
+                    "display_name": "Output",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "type Output = Point",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Point`][`Mul<&Scalar>`]mul().",
+                    "documentation": [
+                        "Performs the `*` operation.\n\n# Example\n\n```\nassert_eq!(12 * 2, 24);\n```"
+                    ],
+                    "kind": 26,
+                    "display_name": "mul",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "fn mul(self, scalar: &Scalar) -> Point",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "local 2",
+                    "kind": 44,
+                    "display_name": "self",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "self: &Point",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Point`][`Mul<&Scalar>`]mul()."
+                },
+                {
+                    "symbol": "local 3",
+                    "kind": 37,
+                    "display_name": "scalar",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "scalar: &Scalar",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Point`][`Mul<&Scalar>`]mul()."
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#0.",
+                    "kind": 15,
+                    "display_name": "0",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "pub 0: i32",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 Point#1.",
+                    "kind": 15,
+                    "display_name": "1",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "pub 1: i32",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][`Mul<&Point>`]Output#",
+                    "documentation": [
+                        "*This is the documentation for* `pub struct Point(pub i32, pub i32)`\n\nA simple point type for demonstration."
+                    ],
+                    "kind": 3,
+                    "display_name": "Output",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "type Output = Point",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][`Mul<&Point>`]mul().",
+                    "documentation": [
+                        "Performs the `*` operation.\n\n# Example\n\n```\nassert_eq!(12 * 2, 24);\n```"
+                    ],
+                    "kind": 26,
+                    "display_name": "mul",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "fn mul(self, point: &Point) -> Point",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "local 4",
+                    "kind": 44,
+                    "display_name": "self",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "self: &Scalar",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][`Mul<&Point>`]mul()."
+                },
+                {
+                    "symbol": "local 5",
+                    "kind": 37,
+                    "display_name": "point",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "point: &Point",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 impl#[`&Scalar`][`Mul<&Point>`]mul()."
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/",
+                    "kind": 29,
+                    "display_name": "tests",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "mod tests",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_neg_owned().",
+                    "kind": 17,
+                    "display_name": "test_neg_owned",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "fn test_neg_owned()",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "local 6",
+                    "kind": 61,
+                    "display_name": "s",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "let s: Scalar",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_neg_owned()."
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_neg_ref().",
+                    "kind": 17,
+                    "display_name": "test_neg_ref",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "fn test_neg_ref()",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "local 7",
+                    "kind": 61,
+                    "display_name": "s",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "let s: Scalar",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_neg_ref()."
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_point_by_scalar().",
+                    "kind": 17,
+                    "display_name": "test_mul_point_by_scalar",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "fn test_mul_point_by_scalar()",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "local 8",
+                    "kind": 61,
+                    "display_name": "p",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "let p: Point",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_point_by_scalar()."
+                },
+                {
+                    "symbol": "local 9",
+                    "kind": 61,
+                    "display_name": "s",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "let s: Scalar",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_point_by_scalar()."
+                },
+                {
+                    "symbol": "local 10",
+                    "kind": 61,
+                    "display_name": "result",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "let result: Point",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_point_by_scalar()."
+                },
+                {
+                    "symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_scalar_by_point().",
+                    "kind": 17,
+                    "display_name": "test_mul_scalar_by_point",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "fn test_mul_scalar_by_point()",
+                        "position_encoding": 1
+                    }
+                },
+                {
+                    "symbol": "local 11",
+                    "kind": 61,
+                    "display_name": "s",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "let s: Scalar",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_scalar_by_point()."
+                },
+                {
+                    "symbol": "local 12",
+                    "kind": 61,
+                    "display_name": "p",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "let p: Point",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_scalar_by_point()."
+                },
+                {
+                    "symbol": "local 13",
+                    "kind": 61,
+                    "display_name": "result",
+                    "signature_documentation": {
+                        "language": "rust",
+                        "text": "let result: Point",
+                        "position_encoding": 1
+                    },
+                    "enclosing_symbol": "rust-analyzer cargo minimal-scip-issue 0.1.0 tests/test_mul_scalar_by_point()."
+                }
+            ],
+            "position_encoding": 1
+        }
+    ]
+}

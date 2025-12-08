@@ -1,0 +1,11 @@
+[package]
+name = "minimal-scip-issue"
+version = "0.1.0"
+edition = "2021"
+description = "Minimal example demonstrating SCIP symbol format differences between rust-analyzer and verus-analyzer"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+
