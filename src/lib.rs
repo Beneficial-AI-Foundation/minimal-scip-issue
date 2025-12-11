@@ -1,11 +1,12 @@
 //! Minimal example demonstrating SCIP symbol format differences.
 //!
-//! This crate shows three cases:
+//! This crate shows four cases:
 //! 1. Owned Self: `impl Neg for Scalar` - works correctly in both tools
 //! 2. Reference Self: `impl Neg for &Scalar` - verus-analyzer omits the Self type
-//! 3. Duplicate symbols: Two different `Mul` impls that produce identical symbols in verus-analyzer
+//! 3. Duplicate symbols (Mul): Two different `Mul` impls produce identical symbols
+//! 4. Duplicate symbols (From): Generic type params lost, causing duplicates
 
-use std::ops::{Neg, Mul};
+use std::ops::{Mul, Neg};
 
 /// A simple scalar type for demonstration.
 #[derive(Clone, Copy, Debug)]
@@ -75,6 +76,46 @@ impl Mul<&Point> for &Scalar {
     }
 }
 
+// =============================================================================
+// Case 4: From trait with generic type parameters - duplicates due to lost generics
+// =============================================================================
+
+/// A generic container type, similar to LookupTable<T> in curve25519-dalek.
+#[derive(Debug)]
+pub struct Container<T> {
+    pub value: T,
+}
+
+/// Marker type A (like ProjectiveNielsPoint in curve25519-dalek).
+#[derive(Debug, Clone, Copy)]
+pub struct TypeA;
+
+/// Marker type B (like AffineNielsPoint in curve25519-dalek).
+#[derive(Debug, Clone, Copy)]
+pub struct TypeB;
+
+/// Convert from Scalar to Container<TypeA>.
+///
+/// Expected symbols:
+/// - rust-analyzer: `impl#[`Container<TypeA>`][`From<&Scalar>`]from().`
+/// - verus-analyzer: `Container#From#from().`
+impl From<&Scalar> for Container<TypeA> {
+    fn from(_s: &Scalar) -> Self {
+        Container { value: TypeA }
+    }
+}
+
+/// Convert from Scalar to Container<TypeB>.
+///
+/// Expected symbols:
+/// - rust-analyzer: `impl#[`Container<TypeB>`][`From<&Scalar>`]from().`
+/// - verus-analyzer: `Container#From#from().`  <-- DUPLICATE! Same as above!
+impl From<&Scalar> for Container<TypeB> {
+    fn from(_s: &Scalar) -> Self {
+        Container { value: TypeB }
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -107,6 +148,20 @@ mod tests {
         let result = &s * &p;
         assert_eq!(result.0, 8);
         assert_eq!(result.1, 12);
+    }
+
+    #[test]
+    fn test_from_scalar_to_container_a() {
+        let s = Scalar(5);
+        let _c: Container<TypeA> = Container::from(&s);
+        // Just verify it compiles and runs
+    }
+
+    #[test]
+    fn test_from_scalar_to_container_b() {
+        let s = Scalar(5);
+        let _c: Container<TypeB> = Container::from(&s);
+        // Just verify it compiles and runs
     }
 }
 
