@@ -1,18 +1,32 @@
 #!/usr/bin/env python3
-"""Extract impl symbols for neg() and mul() from SCIP JSON files."""
+"""Extract impl symbols for neg() and mul() from SCIP JSON files.
 
+This script analyzes SCIP index files (in JSON format) to find impl-related
+symbols and detect collisions where multiple impl blocks produce the same
+symbol string.
+"""
+
+import argparse
 import json
 import os
 import sys
 from collections import defaultdict
 
 
-def extract_impl_symbols(json_file, functions_only=True):
+def extract_impl_symbols(json_file, patterns=None, functions_only=True):
     """Extract impl-related symbols from a SCIP JSON file with line numbers.
+    
+    Args:
+        json_file: Path to the SCIP JSON file
+        patterns: List of patterns to search for (default: ['neg', 'mul'])
+        functions_only: If True, only match function symbols ending in '().'
     
     Returns:
         tuple: (symbol_lines dict, error_message or None)
     """
+    if patterns is None:
+        patterns = ['neg', 'mul']
+    
     # Check if file exists
     if not os.path.exists(json_file):
         return None, f"File not found: {json_file}"
@@ -65,8 +79,8 @@ def extract_impl_symbols(json_file, functions_only=True):
     for doc in data.get('documents', []):
         for sym in doc.get('symbols', []):
             s = sym.get('symbol', '')
-            # Look for impl symbols containing neg or mul
-            if ('neg' in s.lower() or 'mul' in s.lower()) and '#' in s:
+            # Look for impl symbols containing any of the patterns
+            if any(p in s.lower() for p in patterns) and '#' in s:
                 # Skip local variables, test functions, and core library
                 if s.startswith('local ') or 'tests/' in s or '/core ' in s:
                     continue
@@ -75,8 +89,7 @@ def extract_impl_symbols(json_file, functions_only=True):
                     continue
                 matching_symbols.add(s)
     
-    # Second pass: find line numbers for symbol DEFINITIONS only (not references)
-    # Look for lines with "symbol": "..." pattern
+    # Second pass: find line numbers for symbol occurrences
     symbol_lines = defaultdict(list)
     with open(json_file) as f:
         for line_num, line in enumerate(f, 1):
@@ -90,26 +103,78 @@ def extract_impl_symbols(json_file, functions_only=True):
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python extract_impl_symbols.py <json_file> [json_file2 ...]")
-        print("\nExtracts impl-related symbols (neg/mul) from SCIP JSON files.")
-        print("Use 'scip print --json <file.scip>' to convert .scip to JSON first.")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Analyze a single file
+  %(prog)s index.json
+
+  # Compare multiple files
+  %(prog)s index-ra.json index-va.json
+
+  # Search for different patterns
+  %(prog)s --pattern add --pattern sub index.json
+
+  # Include non-function symbols (Output types, etc.)
+  %(prog)s --all index.json
+
+Converting SCIP to JSON:
+  scip print --json index.scip > index.json
+
+What this script detects:
+  - Symbol collisions: Multiple impl blocks producing the same symbol
+  - Missing type info: impl for &Type producing different symbol than impl for Type
+  - Format differences: Between different SCIP generators (rust-analyzer vs verus-analyzer)
+""",
+    )
+    
+    parser.add_argument(
+        'files',
+        metavar='JSON_FILE',
+        nargs='+',
+        help='SCIP JSON file(s) to analyze',
+    )
+    
+    parser.add_argument(
+        '-p', '--pattern',
+        action='append',
+        dest='patterns',
+        metavar='PATTERN',
+        help='Pattern to search for in symbol names (default: neg, mul). Can be specified multiple times.',
+    )
+    
+    parser.add_argument(
+        '-a', '--all',
+        action='store_true',
+        dest='all_symbols',
+        help='Include all matching symbols, not just functions (ending in "().")',
+    )
+    
+    args = parser.parse_args()
+    
+    patterns = args.patterns if args.patterns else ['neg', 'mul']
+    functions_only = not args.all_symbols
     
     exit_code = 0
     
-    for json_file in sys.argv[1:]:
+    for json_file in args.files:
         print(f"\n=== {json_file} ===")
         
-        symbol_lines, error = extract_impl_symbols(json_file)
+        symbol_lines, error = extract_impl_symbols(
+            json_file,
+            patterns=patterns,
+            functions_only=functions_only,
+        )
         
         if error:
-            print(f"ERROR: {error}", file=sys.stderr)
+            print(f"ERROR: {error}")
             exit_code = 1
             continue
         
         if not symbol_lines:
-            print("No matching symbols found (neg/mul impl functions).")
+            print(f"No matching symbols found (patterns: {', '.join(patterns)}).")
             continue
         
         # Count how many impl blocks produce each symbol
